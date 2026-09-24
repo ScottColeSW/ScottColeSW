@@ -34,7 +34,7 @@ Art.com, and a start in anti-virus research at McAfee. Full history at
 
 ## Books
 
-Author of more than two dozen books, centered on the five-book
+Author of 31 books, centered on the five-book
 [**Stop Learning AI** series](https://www.amazon.com/dp/B0GPRFYCQF?&linkCode=ll2&tag=ifio42-20&linkId=b67e3c17a4eb0539b2ec9ec37ef410e4&language=en_US&ref_=as_li_ss_tl), written for executives who need to make good AI
 decisions without becoming technical themselves:
 
