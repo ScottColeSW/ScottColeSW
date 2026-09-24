@@ -59,7 +59,7 @@ Also on AI strategy and adoption:
 
 <sub>As an Amazon Associate I earn from qualifying purchases.</sub>
 
-## Why six local-LLM repos sit on this profile
+## Why seven local-LLM repos sit on this profile
 
 Not a developer portfolio; the opposite problem, actually. Vendor evaluation and governance advice
 is only as good as whether the advisor can tell a real capability from a demo. These are how I stay
@@ -71,6 +71,7 @@ able to tell the difference myself, not delegate that judgment to whoever's sell
 | **[Void-Marauders](https://github.com/ScottColeSW/Void-Marauders)** | A sci-fi colony sim where autonomous agents explore, build, and can mutiny. Loyalty is outcome-sensitive, not a flat scoreboard: a risky order that gets someone hurt costs a captain real, measurable trust. |
 | **[Palimpsest](https://github.com/ScottColeSW/Palimpsest)** | Durable, curated memory for AI agents. Every new claim is judged against what the memory already holds (reinforce, collide, or hold for a person's review), so a forged fact can't quietly rewrite it; an optional model check may raise a flag but never clear one. Tested against one falsifiable bar: does having this memory change a judgment, not just "does storage work." Latest: [v0.3.0](https://github.com/ScottColeSW/Palimpsest/releases/tag/v0.3.0). |
 | **[Aegis Vector](https://github.com/ScottColeSW/Project-Aegis-Vector)** | Plants forged policy documents in a local RAG pipeline and measures, defense by defense, how often small models believe them and what stopping them costs per query. Across nine forgeries, the one defense that got adoption to zero without refusing answers was Palimpsest, used as a memory gate; a forgery that states no number at all was still adopted under every other defense tested. Includes a live dashboard and an animated Black Hat vs White Hat episode player built from the real runs, where every loss sends White Hat up a ladder of different defenses until one holds. Latest: [v0.2.0](https://github.com/ScottColeSW/Project-Aegis-Vector/releases/tag/v0.2.0). |
+| **[Executive Decision Intelligence](https://github.com/ScottColeSW/executive-decision-intelligence)** | A local decision advisor for small-business capital decisions: forward-looking vs total NPV to break the sunk-cost trap, Monte Carlo risk, a synthetic customer focus group, and a red-team challenger that argues against the pitch. Its cases include one where the numbers say *avoid* despite a hard vendor pitch, because an advisor that only ever says yes isn't one. |
 | **[life-rolls](https://github.com/ScottColeSW/life-rolls)** | Five or more distinct local models bluff and call each other out in a live Liar's Dice tournament. Zero external dependencies: arithmetic always happens in real code, never asked of a model. |
 | **[Dominion](https://github.com/ScottColeSW/Dominion)** | Thirteen contestants, each backed by a local model, draft trivia domains and duel for a game-show grand prize, with a scripted fallback so the show never stalls if a model call fails. |
 
