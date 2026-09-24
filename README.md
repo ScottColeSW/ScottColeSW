@@ -23,7 +23,7 @@ Author of 26 books on AI strategy and adoption (Amazon KDP), including the *Stop
 series, written for executives who need good AI decisions without becoming technical
 themselves. Full history at [linkedin.com/in/scottcole](https://linkedin.com/in/scottcole).
 
-## Why five multi-agent LLM repos sit on this profile
+## Why six local-LLM repos sit on this profile
 
 Not a developer portfolio — the opposite problem, actually. Vendor evaluation and governance
 advice is only as good as whether the advisor can tell a real capability from a demo. These are
@@ -34,6 +34,7 @@ how I stay able to tell the difference myself, not delegate that judgment to who
 | **[Evo](https://github.com/ScottColeSW/Evo)** | LLM-driven tribes grow from a handful of survivors into a founded, warring, or allying civilization — entirely on their own. Seven-era progression, diplomacy that can genuinely backfire, a headless benchmark harness for reproducible model-vs-model comparison. |
 | **[Void-Marauders](https://github.com/ScottColeSW/Void-Marauders)** | A sci-fi colony sim where autonomous agents explore, build, and can mutiny — loyalty is outcome-sensitive, not a flat scoreboard: a risky order that gets someone hurt costs a captain real, measurable trust. |
 | **[Palimpsest](https://github.com/ScottColeSW/Palimpsest)** | Curated, visibly-weighted memory for AI agents. Tested against one falsifiable bar — does having this memory change a judgment, not just "does storage work." |
+| **[Aegis Vector](https://github.com/ScottColeSW/Project-Aegis-Vector)** | Plants forged policy documents in a local RAG pipeline and measures, defense by defense, how often small models believe them and what stopping them costs per query. The one defense that got adoption to zero without refusing answers: Palimpsest, used as a memory gate. Includes a live dashboard and an animated Black Hat vs White Hat episode player built from the real runs. |
 | **[life-rolls](https://github.com/ScottColeSW/life-rolls)** | Five or more distinct local models bluff and call each other out in a live Liar's Dice tournament. Zero external dependencies — arithmetic always happens in real code, never asked of a model. |
 | **[Dominion](https://github.com/ScottColeSW/Dominion)** | Thirteen contestants, each backed by a local model, draft trivia domains and duel for a game-show grand prize — with a scripted fallback so the show never stalls if a model call fails. |
 
