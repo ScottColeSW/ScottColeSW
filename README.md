@@ -16,8 +16,8 @@ A few of the numbers, plainly stated:
 - Designed an enterprise RAG knowledge-retrieval pipeline that improved decision accuracy by 85%
   against a four-year baseline.
 - Diagnosed a clinical ML accuracy gap to its real root cause (data architecture, a sharding scheme,
-  not the model) and redesigned the pipeline, taking prediction accuracy from 88% to 98% at Change
-  Healthcare, with $3M+ in separately identified savings.
+  not the model) and redesigned the pipeline, closing a 12% prediction accuracy gap at Change
+  Healthcare, with over $3M in potential savings.
 - Directed a ServiceNow AI workflow redesign that increased first-touch resolution by 65% and
   generated $2M+ in documented labor savings.
 - Built predictive AI models for real-estate investment analysis that surfaced $50M+ in acquisition
@@ -25,16 +25,15 @@ A few of the numbers, plainly stated:
 - Co-founded an online music company (massmusic.com), scaled it to a Forbes #3 ranking in online
   music sales, and negotiated its acquisition.
 
-Currently: independent AI strategy consultant, and co-founder and fractional CTO of 150LEFT, an
-AI-powered insurance risk-assessment platform (predictive models improved risk prediction accuracy by
-more than 50%; GenAI agents on AutoGen, MemGPT, and CrewAI). Earlier: Unify Consulting (GenAI
+Currently: independent AI strategy consultant and author. Co-founder of 150LEFT, a pollinator-habitat
+venture that did not take off but remains legally active. Earlier: Unify Consulting (GenAI
 strategy for Fortune 500 clients), engineering leadership at AudioHighway.com, Grapevine, and
 Art.com, and a start in anti-virus research at McAfee. Full history at
 [linkedin.com/in/scottcole](https://linkedin.com/in/scottcole).
 
 ## Books
 
-Author of 31 books, centered on the five-book
+Author of 30+ books, centered on the five-book
 [**Stop Learning AI** series](https://www.amazon.com/dp/B0GPRFYCQF?&linkCode=ll2&tag=ifio42-20&linkId=b67e3c17a4eb0539b2ec9ec37ef410e4&language=en_US&ref_=as_li_ss_tl), written for executives who need to make good AI
 decisions without becoming technical themselves:
 
