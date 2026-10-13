@@ -13,8 +13,6 @@ A few of the numbers, plainly stated:
 
 - Architected a municipal multi-agent AI system that reduced help-desk workload by 23%, after two
   prior enterprise vendors had already failed at it.
-- Designed an enterprise RAG knowledge-retrieval pipeline that improved decision accuracy by 85%
-  against a four-year baseline.
 - Diagnosed a clinical ML accuracy gap to its real root cause (data architecture, a sharding scheme,
   not the model) and redesigned the pipeline, closing a 12% prediction accuracy gap at Change
   Healthcare, with over $3M in potential savings.
