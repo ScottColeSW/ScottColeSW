@@ -5,7 +5,7 @@
 AI strategy and technology executive with 25+ years across enterprise software, AI/ML, business
 intelligence, e-commerce, and business ownership. Advises executives, boards, and technical teams on
 AI strategy, enterprise architecture, GenAI adoption, AI governance, and technology-enabled
-transformation across healthcare, insurance, government, and Fortune 500 environments. Dual MBA
+transformation across healthcare, government, and Fortune 500 environments. Dual MBA
 (Columbia, Finance & Economics; UC Berkeley Haas, Strategy & Entrepreneurship) and a computer science
 degree (UC Davis) underneath the strategy work, not instead of it.
 
@@ -18,15 +18,19 @@ A few of the numbers, plainly stated:
 - Diagnosed a clinical ML accuracy gap to its real root cause (data architecture, a sharding scheme,
   not the model) and redesigned the pipeline, closing a 12% prediction accuracy gap at Change
   Healthcare, with over $3M in potential savings.
-- Directed a ServiceNow AI workflow redesign that increased first-touch resolution by 65% and
-  generated $2M+ in documented labor savings.
+- Led a ServiceNow engagement at Unify Consulting that streamlined a long, manual, global
+  application-deployment review for compliance with NIST, ISO, and other security standards: an
+  AI-guided workflow for the user, plus a RAG assistant that lets people converse with the standards
+  documents. The roughly 15-person security department had been the release bottleneck for apps
+  built across the company.
 - Built predictive AI models for real-estate investment analysis that surfaced $50M+ in acquisition
   opportunities.
 - Co-founded an online music company (massmusic.com), scaled it to a Forbes #3 ranking in online
   music sales, and negotiated its acquisition.
 
 Currently: independent AI strategy consultant and author. Co-founder of 150LEFT, a pollinator-habitat
-venture that did not take off but remains legally active. Earlier: Unify Consulting (GenAI
+venture: we designed it and ran an Indiegogo campaign, did not raise enough, returned the money, and
+stopped. Earlier: Unify Consulting (GenAI
 strategy for Fortune 500 clients), engineering leadership at AudioHighway.com, Grapevine, and
 Art.com, and a start in anti-virus research at McAfee. Full history at
 [linkedin.com/in/scottcole](https://linkedin.com/in/scottcole).
