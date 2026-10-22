@@ -60,7 +60,11 @@ I take a stubborn position on this one: start the migration today, not when the 
 - **The exposure is mostly the public-key layer, not the password itself.** RSA and elliptic-curve
   cryptography (key exchange, signatures, certificates, the channel a credential travels through) are
   what break. Symmetric keys lose about half their effective strength to a quantum attacker, so use
-  256-bit keys, long passphrases or passkeys, and a memory-hard password hash such as Argon2id.
+  256-bit keys.
+- **I recommend passkeys.** They resist phishing and leave no shared secret on the server to steal. Where
+  a passkey is not offered, use a long passphrase in a password manager, and store passwords with a
+  memory-hard hash such as Argon2id. Passkeys typically use classical signatures today, so they fix
+  credential theft now and still join the post-quantum migration later.
 - **The standards are final.** NIST published ML-KEM (FIPS 203), ML-DSA (FIPS 204), and SLH-DSA
   (FIPS 205) on 13 August 2024. Hybrid post-quantum key exchange (X25519MLKEM768) is already the default
   in current Chrome, Edge, and Firefox, though far fewer servers behind them support it yet.
