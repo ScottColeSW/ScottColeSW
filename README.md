@@ -54,14 +54,16 @@ how the defense works.
 
 I take a stubborn position on this one: start the migration today, not when the deadline is close.
 
-- **Harvest now, decrypt later is already happening.** Traffic and records captured today can be read
-  once a capable quantum computer exists. Anything that must stay secret for ten years is exposed today.
+- **Harvest now, decrypt later is the reason not to wait.** Encrypted traffic and records captured today
+  can be read once a capable quantum computer exists, so data that must stay secret for years is worth
+  protecting now.
 - **The exposure is mostly the public-key layer, not the password itself.** RSA and elliptic-curve
   cryptography (key exchange, signatures, certificates, the channel a credential travels through) are
-  what break. Symmetric keys and hashes only lose about half their strength, so use 256-bit keys, long
-  passphrases or passkeys, and a memory-hard password hash such as Argon2id.
+  what break. Symmetric keys lose about half their effective strength to a quantum attacker, so use
+  256-bit keys, long passphrases or passkeys, and a memory-hard password hash such as Argon2id.
 - **The standards are final.** NIST published ML-KEM (FIPS 203), ML-DSA (FIPS 204), and SLH-DSA
-  (FIPS 205) in August 2024, and hybrid post-quantum key exchange already ships in mainstream TLS.
+  (FIPS 205) on 13 August 2024. Hybrid post-quantum key exchange (X25519MLKEM768) is already the default
+  in current Chrome, Edge, and Firefox, though far fewer servers behind them support it yet.
 - **The first step is an inventory.** Find where RSA and ECC live, rank by how long the data must stay
   secret, and move the long-lived items first. AI agents add to the list: every service identity,
   token, and signing key an agent holds is a credential to migrate.
